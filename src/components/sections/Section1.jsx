@@ -10,13 +10,13 @@ export default function Section1() {
         {/* Teks utama: PORTOFOLIO */}
         <div className="flex">
           {/* Kata pertama */}
-          <p className="cursor-default text-8xl font-bold">PORTO</p>
+          <p className="cursor-default text-blue-500 font-bold text-8xl">PORTO</p>
 
           {/* Kata kedua dengan efek outline */}
           <p
-            className="cursor-none text-8xl font-bold text-transparent transition-all duration-500 hover:text-black"
+            className="cursor-none text-8xl font-bold text-transparent transition-all duration-500 hover:text-blue-500"
             style={{
-              WebkitTextStroke: '2px black',
+              WebkitTextStroke: '2px #2B7FFF',
             }}
           >
             FOLIO

@@ -31,7 +31,8 @@ export default function Section3() {
           {/* Baris ikon-ikon tools */}
           <div className="flex justify-center gap-3">
             <SocialIcon src="/images/vscode.svg" alt="VSCode" tooltip="VSCode" />
-            <SocialIcon src="/images/github.svg" alt="GitHub" tooltip="GitHub" />
+            <a href='https://github.com/BlueTedV' target='_blank' rel='noopener noreferrer'><SocialIcon src="/images/github.svg" alt="GitHub" tooltip="GitHub" /></a>
+            <SocialIcon src="/images/github-desktop.svg" alt="GitHub-Desktop" tooltip="GitHub Desktop" />
           </div>
         </div>
       </div>
